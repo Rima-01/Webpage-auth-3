@@ -28,10 +28,9 @@ DEBUG = True
 ALLOWED_HOSTS = [
     'localhost',
     '127.0.0.1',
-    '100.26.191.118',
     '0.0.0.0',
-    '3.83.150.178'
-    # Add your Cloud9 environment public URL if needed
+    '44.212.53.172',  # Your Cloud9 public IPv4 address
+    'ec2-44-212-53-172.compute-1.amazonaws.com',  # Public DNS name
 ]
 
 # Application definition
@@ -155,4 +154,5 @@ WEBPACK_LOADER = {
 CORS_ALLOWED_ORIGINS = [
     'http://127.0.0.1:8080',  # Vue dev server
     'http://localhost:8080',  # Vue dev server
+    'http://44.212.53.172:8080'
 ]
